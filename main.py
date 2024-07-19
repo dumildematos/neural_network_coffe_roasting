@@ -28,7 +28,7 @@ print(f"Duration    Max, Min post normalization: {np.max(Xn[:,1]):0.2f}, {np.min
 
 # Tile/copy data to increase the training set size and reduce the number of training epochs
 Xt = np.tile(Xn, (1000, 1))
-Yt = np.tile(Y, (1000,1))
+Yt = np.tile(Y, (1000, 1))
 print(Xt.shape, Yt.shape)
 
 
